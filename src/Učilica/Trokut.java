@@ -5,19 +5,14 @@ public class Trokut {
     private int strB;
     private int strC;
     private String nazivTrokuta;
-    private int opsegTrokuta;
 
-    public Trokut (int strA, int strB, int strC, String nazivTrokuta, int povrsinaTrokuta){
+
+    public Trokut (int strA, int strB, int strC, String nazivTrokuta){
         this.strA = strA;
         this.strB = strB;
         this.strC = strC;
         this.nazivTrokuta = nazivTrokuta;
-        this.opsegTrokuta = povrsinaTrokuta;
-    }
 
-    public int opsegTrokuta (){
-        opsegTrokuta = strA * strB * strC;
-        return opsegTrokuta;
     }
 
     // getteri
@@ -33,9 +28,7 @@ public class Trokut {
     public String getNazivTrokuta() {
         return nazivTrokuta;
     }
-    public int getOpsegTrokuta() {
-        return opsegTrokuta;
-    }
+
 
     // setteri
     public void setStrA(int strA) {
@@ -50,7 +43,5 @@ public class Trokut {
     public void setNazivTrokuta(String nazivTrokuta) {
         this.nazivTrokuta = nazivTrokuta;
     }
-    public void setOpsegTrokuta(int opsegTrokuta) {
-        this.opsegTrokuta = opsegTrokuta;
-    }
+
 }

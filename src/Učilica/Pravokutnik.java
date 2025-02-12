@@ -4,14 +4,11 @@ public class Pravokutnik {
     private int stranaA;
     private int stranaB;
     private String nazivPravokutnika;
-    private int povrsinaPrav;
 
-    public Pravokutnik(int stranaA, int stranaB, String nazivPravokutnika, int povrsinaPrav){
+    public Pravokutnik(int stranaA, int stranaB, String nazivPravokutnika){
         this.stranaA = stranaA;
         this.stranaB = stranaB;
         this.nazivPravokutnika = nazivPravokutnika;
-        this.povrsinaPrav = povrsinaPrav;
-
     }
 
     // getteri
@@ -24,9 +21,6 @@ public class Pravokutnik {
     public String getNazivPravokutnika() {
         return nazivPravokutnika;
     }
-    public int getPovrsinaPrav() {
-        return povrsinaPrav;
-    }
 
     // setteri
     public void setStranaA(int stranaA) {
@@ -37,8 +31,5 @@ public class Pravokutnik {
     }
     public void setNazivPravokutnika(String nazivPravokutnika) {
         this.nazivPravokutnika = nazivPravokutnika;
-    }
-    public void setPovrsinaPrav(int povrsinaPrav) {
-        this.povrsinaPrav = povrsinaPrav;
     }
 }
